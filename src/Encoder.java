@@ -1,8 +1,5 @@
 public class Encoder {
     //array of linked
-    //pass 2d array inside convert method and the method should convert 2D array to compressed conversion.
-    //2 other classes one for RLCencoder(receives 2D matrix and cobverts it compressed form)
-    // and one for RLCdecoder (receives the compressed version and converts it to 2d matrix)
         /*
         0 --> 1 --> 2 --> 3 --> null (rows)|| array of LL
         |     |     |     |
@@ -14,10 +11,6 @@ public class Encoder {
         |     |     |     |
        null  null  null  null
 
-     */
-
-    /*
-    Stuff remaining to do: Optimise the code
      */
 
     private Node[] rows; // array of node
